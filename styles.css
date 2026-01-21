@@ -373,8 +373,20 @@ strong {
 }
 
 .callout-icon {
-    font-size: 1.5rem;
     flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-copper));
+    border-radius: 8px;
+    color: white;
+}
+
+.callout-icon svg {
+    width: 20px;
+    height: 20px;
 }
 
 .callout h4 {
@@ -816,7 +828,19 @@ strong {
 }
 
 .dimension-icon {
-    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, var(--primary-navy), var(--secondary-navy));
+    border-radius: 10px;
+    color: var(--accent-gold);
+}
+
+.dimension-icon svg {
+    width: 24px;
+    height: 24px;
 }
 
 .dimension-header h4 {
@@ -1216,9 +1240,20 @@ strong {
 }
 
 .point-icon {
-    display: block;
-    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
     margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-copper));
+    border-radius: 12px;
+    color: white;
+}
+
+.point-icon svg {
+    width: 28px;
+    height: 28px;
 }
 
 .conclusion-point p {
