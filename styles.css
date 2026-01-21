@@ -952,6 +952,11 @@ strong {
     font-weight: 600;
 }
 
+.data-table .warning {
+    color: var(--warning);
+    font-weight: 600;
+}
+
 .table-note {
     margin-top: 1rem;
     font-size: 0.8125rem;
