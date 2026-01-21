@@ -693,6 +693,12 @@ strong {
     font-size: 1rem;
 }
 
+.deep-dive-content strong,
+.africa-intro strong {
+    color: var(--accent-gold-light);
+    font-weight: 600;
+}
+
 .deep-dive-content ul {
     margin-top: 1rem;
     padding-left: 1.25rem;
@@ -703,6 +709,10 @@ strong {
     padding-left: 1rem;
     margin-bottom: 0.75rem;
     color: var(--slate-400);
+}
+
+.deep-dive-content li strong {
+    color: var(--accent-gold-light);
 }
 
 .deep-dive-content li::before {
